@@ -1,5 +1,5 @@
 I fixed this to work on UE 5.1
-
+更新到5.1版本的版本在系统没有声音的时候会报错,我添加了IsValidIndex
 
 ////
 
