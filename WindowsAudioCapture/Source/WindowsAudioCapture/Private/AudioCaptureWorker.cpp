@@ -97,7 +97,10 @@ TArray<float> FAudioCaptureWorker::GetFrequencyArray(float FreqLogBase, float Fr
 		//Empty chunk's trash
 		m_sink.EmptyQueue(chunk);
 	}
-
+	if(freqs.IsValidIndex(0))
+	{
+		return freqs;
+	}
 	TArray<float> resultFloats;
 	float count = freqs.Num() / 2 - 1;
 
