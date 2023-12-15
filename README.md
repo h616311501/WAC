@@ -1,3 +1,4 @@
+这个插件可以在UE5.1内获取到系统的声音信息
 I fixed this to work on UE 5.1
 更新到5.1版本的版本在系统没有声音的时候会报错,我添加了IsValidIndex
 
